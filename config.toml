@@ -1,0 +1,19 @@
+baseURL = "https://maxschlueter.com"
+languageCode = "en-us"
+title = "Max Schlueter"
+theme = "anubis"
+
+[params]
+  author = "Max Schlueter"
+  description = "Max Schlueter's website."
+  dateFormat = "2006-01-02"
+  paginationSinglePost = true
+  style = "light-without-switcher"
+  readMore = false
+
+[menu]
+  [[menu.main]]
+    identifier = "photos"
+    name = "Photos"
+    title = "Photos"
+    url = "/photos/"
